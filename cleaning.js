@@ -67,6 +67,14 @@ document.body.appendChild(css); // add the new stylesheet to the end of the docu
 }
 
     
+    
+  $('.menu').click(function(){
+        
+        $('.menu').toggleClass('active');
+        $('.menu-bar').toggleClass('active');
+    });
+       
+    
   
     
  });

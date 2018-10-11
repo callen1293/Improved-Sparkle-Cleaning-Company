@@ -12,7 +12,18 @@ body{
 
 @media only screen and (min-width: 768px){
     
+    .nav {
+        
+       display: none; 
+        
+    }
     
+    
+    .menu {
+        
+        display: none;
+        
+    }
     
   /* Navbar*/
 .navbar-inverse .navbar-nav > li > a{
@@ -547,11 +558,608 @@ margin: 0 0 0 5%;
 
 
 
-	#contact h2{
+ /* Navbar*/
+
+
+.phone {
+    
+   display: none;
+}
+
+
+
+.company-name {
+    
+ display: none;
+    
+}
+    
+    .company-name2 {
+        
+    font-size: 28px;
+    position: relative;
+    top: -6px;
+    left: 90px;
+    height: 40px;
+    font-family: 'Lobster', cursive;
+    color: #2bdb6f;
+    
+        
+        
+    }
+
+
+.navbar-inverse{
+
+    display: none;  
+
+}
+    
+    
+    
+    
+ /* menu */   
+    
+.menu{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    cursor: pointer;
+    z-index: 1;
+    box-sizing: border-box;
+    
+    z-index: 2;
+     
+    
+    
+    
+}
+
+.menu span {
+    
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background:  #2bdb6f;
+    display: block;
+    top: calc(50% - 1px);
+    left: calc(50% - 15px);
+    transition: 0.2s;
+   
+    
+    
+}
+
+.menu span:nth-child(1) {
+    
+    transform: translateY(-10px);
+}
+
+.menu span:nth-child(3) {
+    
+    transform: translateY(10px);
+}
+
+.menu.active span:nth-child(1) {
+    
+    transform: translateY(0px)rotate(-45deg);
+}
+
+.menu.active span:nth-child(3) {
+    
+    transform: translateY(0px)rotate(45deg);
+}
+
+.menu.active span:nth-child(2) {
+    
+    transform: translateY(-30px);
+    opacity: 0;
+}
+
+.menu-bar{
+    
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 60px;
+   background: #fff;
+   transition: 0.5s;
+   transform: translatex(-100%);
+   z-index: 1;
+    
+}
+
+.menu-bar.active{
+    
+    transform: translatex(0);
+    
+}
+
+.menu-bar ul {
+    
+    display: flex;
+    margin: 0;
+    padding: 0;
+    float: right;
 
     
+}
+
+.menu-bar ul li {
+    
+    list-style: none;
+}
+
+.menu-bar ul li a{
+    
+    line-height: 60px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:  #2bdb6f;
+    text-decoration: none;
+    padding: 0 20px;
+    display: block;
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+
+.menu-bar ul li a:hover{
+    
+    color:  #2bdb6f;
+    
+    
+}
+
+.menu-bar ul li:last-child a{
+      
+    border-right: none;
+
+    
+}
+
+    
+    
+    .menu-bar{
+        
+        height: auto;
+    
+    }
+    
+    .menu-bar ul{
+        
+        display: inherit;
+        float: none;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+   
+    }   
+
+
+    
+
+
+/* slides */
+
+#slidy-container { 
+  
+  width: 70%; 
+  overflow: hidden; 
+  margin: 0 auto;
+
+
+  
+}
+
+.slider {
+    
+    
+    position: relative;
+    top: -60px;
+    
+    
+}
+
+.phrase{
+    
+    color: #fff;
+    position: relative;
+    top: 125px;
+    left: 100px;
+    text-align: center;
+    width: 50%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    
+    
+    
+    
+}
+
+.background {
+    
+    background: rgba(53, 186, 48,0.5);
+    position: relative;
+    top: -20px;
+    height: 650px;
+    margin-bottom: 15px;
+    
+    
+    
+}
+
+.slogan {
+    
+    
+    color: #fff;
+    position: relative;
+    left: 75px;
+    top: 15px;
+    text-align: center;
+    width: 50%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    
+}
+
+ 
+    
+    #grid h1{
+  margin: 1% 30% 0 30%;
+ 
+ }
+
+
+
+
+	.form-horizontal{
+
+	margin: 0 10% 0 10%;
+
+
 	}
 
+
+    
+    .mainphrase {
+        
+        
+        position: relative;
+        top: -18px;
+        height: 300px;
+        margin-bottom: 100px;
+    
+        
+     
+        
+    }
+    
+    
+    .mainphrase h2 {
+         
+        
+        position: relative;
+        top: 100px;
+        font-size: 25px;
+        text-align: center;
+        color: #fff;
+        font-family: 'Lobster', cursive;
+      
+        
+        
+    }
+    
+    
+    .background2 {
+        
+        background: rgba(53, 186, 48,0.5);
+        position: relative;
+        top: -100px;
+        height: 400px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        
+    }
+
+    
+    #contact {
+        
+        margin-top: -100px;
+    }
+    
+
+
+/* Glyph Icons */
+
+
+
+.glyphicon-tint, .glyphicon-tree-conifer, .glyphicon-grain, .glyphicon-leaf, .glyphicon-tree-deciduous, .glyphicon-apple, .glyphicon-globe, .glyphicon-star{
+font-size: 1.3em;
+color: #2bdb6f;
+
+
+}
+    
+    .glyphicon-tint, .glyphicon-tree-conifer, .glyphicon-grain, .glyphicon-leaf {
+        
+        
+        margin-top: 45px;
+        
+    }
+
+
+/* Grid and Row */
+
+.row {
+    
+	text-align: center;
+
+}
+
+
+.services h2, .services2 h2{
+font-family: 'Kavivanar', cursive;
+
+}
+
+
+.services2{
+margin-top: 25px;
+margin-bottom: 25px;
+
+}
+
+.services2 h5{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Kavivanar', cursive;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+    
+
+.container h5 {
+    
+    margin-top: 80px;
+    
+}
+
+
+.hrone{
+    
+ display: none;
+    
+    
+    
+}
+
+
+.hrtwo {
+    
+  display: none
+    
+}
+
+
+.hrthree {
+    
+ 
+  display: none;
+ 
+     
+    
+    
+}
+
+
+
+
+
+.servicehead {
+    
+    
+    
+    position: relative;
+    left: -15px;
+    font-family: 'Lobster', cursive;
+	border: 2px solid #2bdb6f;
+    background: #fff;
+    width: 150px;
+    padding: 5px;
+    color: #2bdb6f;
+    border-radius: 5%;
+    font-size: 25px;
+   
+    
+}
+
+
+.testimonialhead {
+    
+    position: relative;
+    left: 100px;
+    top: 40px;
+    font-family: 'Lobster', cursive;
+	margin-bottom: 25px;
+    background: #fff;
+    width: 150px;
+    padding: 5px;
+    color: #2bdb6f;
+    border-radius: 5%;
+    font-size: 25px;
+    
+}
+
+
+.contacthead {
+    
+  
+    
+    margin-left: 110px;
+    font-family: 'Lobster', cursive;
+	margin-bottom: 45px;
+	border: 2px solid #2bdb6f;
+    background: #fff;
+    width: 150px;
+    padding: 5px;
+    color: #2bdb6f;
+    border-radius: 5%;
+    font-size: 25px;
+    
+    
+    
+}
+
+.contactp{
+    
+    
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+label {
+    
+    font-size: 15px;
+    color: #2bdb6f;
+}
+
+
+.form-control {
+    
+    border: 2px solid #2bdb6f;
+     outline: none !important;
+     
+}
+    
+    
+
+
+ .row p{
+ font-family: 'Ovo', serif;
+ width: 80%
+ margin-left: 285px;
+ margin-bottom: 40px;
+ color: #fff;
+ font-size: 16px;
+ 
+ }
+
+/*testimonials*/
+
+.quote {
+    
+    margin-top: -75px;
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 150px;
+    
+}
+    
+    .place {
+        
+        color: #fff;
+
+    }
+
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 20px;
+
+}
+
+
+#fade-quote-carousel.carousel h5 {
+  font-size: 17px;
+	margin-top: -15px;
+
+}
+
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #fff;
+  border: none;
+  margin-top: 20px;
+  
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 0px;
+    height: 0px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+
+/* Contact Form */
+
+.btn-default{
+	margin-top: 30px;
+    background: #2bdb6f;
+    color: #fff;
+    border:none;
+    padding: 10px;
+    width: 160px;
+    font-size: 17px;
+     font-family: 'Roboto Slab', serif;
+}
+
+
+.btn-default:hover{
+    
+    
+    background: #fff;
+    color: #2bdb6f;
+    border: 2px solid #2bdb6f;
+    
+    
+}
+
+#contact h2{
+	margin-top: 15px;
+	font-family: 'Lobster', cursive;
+}
+
+#contact h3{
+
+	margin-right:0 10% 0 10%;
+	margin-top: 25px;
+	font-family: 'Lobster', cursive;
+}
+
+
+
+footer{
+	margin-top: 30px;
+}
+	
+    
+    
+    
+    
 
 
 
