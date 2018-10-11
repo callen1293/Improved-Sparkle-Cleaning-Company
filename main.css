@@ -1,0 +1,560 @@
+
+
+
+body{
+	line-height: 1.5;
+	background-color: #fff;
+   
+
+}
+
+
+
+@media only screen and (min-width: 768px){
+    
+    
+    
+  /* Navbar*/
+.navbar-inverse .navbar-nav > li > a{
+
+    
+color: #2bdb6f;
+position: relative;
+top: 50px;
+margin-left: 900px;
+margin-top: px;
+font-family: 'Roboto Slab', serif;
+z-index: 4;
+   
+
+}
+
+.phone {
+    
+    margin-top: -50px;
+    position: relative;
+    left: 900px;
+    top: 75px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+     color: #2bdb6f;
+    z-index: 2;
+    
+}
+
+
+
+.company-name {
+    
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+    font-family: 'Lobster', cursive;
+    color: #2bdb6f;
+    
+    
+}
+
+
+.navbar-inverse{
+
+    border: none;
+	min-height: 70px;
+    background: #fff;
+    height: 80px;
+    border-bottom: 1px solid #2bdb6f;
+    
+
+}
+
+.navbar-inverse a{
+text-decoration: none;
+text-transform: uppercase;
+font-size: 16px;
+}
+
+.navbar-inverse li{
+	padding: 0 20px 0 20px;
+	margin-top: 10px;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: #dee8f4;
+
+}
+
+/* slides */
+
+#slidy-container { 
+  
+  width: 70%; 
+  overflow: hidden; 
+  margin: 0 auto;
+  height: 500px;
+
+  
+}
+
+.slider {
+    
+    
+    position: relative;
+    top: -140px;
+    
+    
+}
+
+.phrase{
+    
+    color: #fff;
+    position: relative;
+    top: 125px;
+    left: 350px;
+    text-align: center;
+    width: 50%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    
+    
+    
+}
+
+.background {
+    
+    background: rgba(53, 186, 48,0.5);
+    position: relative;
+    top: -20px;
+    margin-bottom: 125px;
+    
+}
+
+.slogan {
+    
+    
+    color: #fff;
+    position: relative;
+    top: 70px;
+    left: 350px;
+    text-align: center;
+    width: 50%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    
+}
+
+ 
+    
+    #grid h1{
+  margin: 1% 30% 0 30%;
+ 
+ }
+
+
+
+
+	.form-horizontal{
+
+	margin: 0 10% 0 10%;
+
+
+	}
+
+
+    
+    .mainphrase {
+        
+        
+        position: relative;
+        top: -18px;
+        height: 300px;
+        margin-bottom: 100px;
+        
+     
+        
+    }
+    
+    
+    .mainphrase h2 {
+         
+        
+        position: relative;
+        top: 100px;
+        font-size: 35px;
+        text-align: center;
+        color: #fff;
+        font-family: 'Lobster', cursive;
+      
+        
+        
+    }
+    
+    
+    .background2 {
+        
+        background: rgba(53, 186, 48,0.5);
+        position: relative;
+        top: -100px;
+        height: 400px;
+        
+    }
+
+    
+    #contact {
+        
+        margin-top: -100px;
+    }
+    
+
+
+/* Glyph Icons */
+
+
+
+.glyphicon-tint, .glyphicon-tree-conifer, .glyphicon-grain, .glyphicon-leaf, .glyphicon-tree-deciduous, .glyphicon-apple, .glyphicon-globe, .glyphicon-star{
+font-size: 1.3em;
+color: #2bdb6f;
+
+}
+
+
+/* Grid and Row */
+
+.row {
+    
+	text-align: center;
+
+}
+
+
+.services h2, .services2 h2{
+font-family: 'Kavivanar', cursive;
+
+}
+
+
+.services2{
+margin-top: 25px;
+margin-bottom: 25px;
+
+}
+
+.services2 h5{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Kavivanar', cursive;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+    
+
+.container h5 {
+    
+    margin-top: 80px;
+    
+}
+
+
+.hrone{
+    
+   margin-top: 200px;
+   position: relative;
+   top: 2px;
+   background: #fcfcfc;
+   height: 9px;
+   width: 70%;
+   border: none;
+    
+    
+    
+}
+
+
+.hrtwo {
+    
+   position: relative;
+   top: 20px;
+   background:  #2bdb6f;
+   height: 2px;
+   width: 70%;
+   border: none;
+    margin-top: -50px;
+   margin-bottom: 60px;
+    
+    
+}
+
+
+.hrthree {
+    
+   position: relative;
+   top: 20px;
+   background:  #2bdb6f;
+   height: 2px;
+   width: 70%;
+   border: none;
+   margin-top: 100px;
+   margin-bottom: 60px;
+     
+    
+    
+}
+
+
+
+
+
+.servicehead {
+    
+    
+    position: relative;
+    left: 105px;
+    top: -67px;
+    font-family: 'Lobster', cursive;
+	margin-bottom: 25px;
+	border: 2px solid #2bdb6f;
+    background: #fff;
+    width: 230px;
+    padding: 5px;
+    color: #2bdb6f;
+    border-radius: 5%;
+}
+
+
+.testimonialhead {
+    
+    position: relative;
+    left: 600px;
+    top: 40px;
+    font-family: 'Lobster', cursive;
+	margin-bottom: 25px;
+    background: #fff;
+    width: 230px;
+    padding: 5px;
+    color: #2bdb6f;
+    border-radius: 5%;
+    
+}
+
+
+.contacthead {
+    
+    position: relative;
+    left: 453px;
+    top: -65px;
+    font-family: 'Lobster', cursive;
+	margin-bottom: 25px;
+	border: 2px solid #2bdb6f;
+    background: #fff;
+    width: 230px;
+    padding: 5px;
+    color: #2bdb6f;
+    border-radius: 5%;
+    
+    
+}
+
+.contactp{
+    
+    
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+label {
+    
+    font-size: 15px;
+    color: #2bdb6f;
+}
+
+
+.form-control {
+    
+    border: 2px solid #2bdb6f;
+     outline: none !important;
+     
+}
+    
+    
+
+
+ .row p{
+ font-family: 'Ovo', serif;
+ width: 60%;
+ margin-left: 285px;
+ margin-bottom: 40px;
+ color: #fff;
+ 
+ }
+
+/*testimonials*/
+
+.quote {
+    
+    margin-top: -65px;
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 150px;
+    
+}
+    
+    .place {
+        
+        color: #fff;
+    }
+
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 20px;
+
+}
+
+
+#fade-quote-carousel.carousel h5 {
+  font-size: 25px;
+	margin-top: 10px;
+
+}
+
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #fff;
+  border: none;
+  margin-top: 20px;
+  
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 0px;
+    height: 0px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+
+/* Contact Form */
+
+.btn-default{
+	margin-top: 30px;
+    margin-left: 10px;
+    background: #2bdb6f;
+    color: #fff;
+    border:none;
+    padding: 10px;
+    width: 160px;
+    font-size: 20px;
+     font-family: 'Roboto Slab', serif;
+}
+
+
+.btn-default:hover{
+    
+    
+    background: #fff;
+    color: #2bdb6f;
+    border: 2px solid #2bdb6f;
+    
+    
+}
+
+#contact h2{
+	margin-top: 15px;
+	font-family: 'Lobster', cursive;
+}
+
+#contact h3{
+
+	margin-right:0 10% 0 10%;
+	margin-top: 25px;
+	font-family: 'Lobster', cursive;
+}
+
+
+
+footer{
+	margin-top: 30px;
+}
+
+}
+
+@media only screen and (max-width: 500px){
+
+	.form-horizontal{
+
+	margin: 0 10% 0 10%;
+
+
+	}
+
+
+
+
+
+
+ .row{
+
+      text-align: center;
+      margin: 0 0 0 10px;
+      overflow: hidden;
+      max-width: 100%;
+
+
+ }
+
+
+
+ .row h2{
+
+font-size: 11px;
+padding: 2px;
+font-weight: bold;
+font-family: 'Roboto Slab', serif;
+
+
+
+
+ }
+    
+
+
+
+
+
+.glyphicon-envelope{
+
+margin: 0 0 0 5%;
+
+  }
+
+
+
+
+	#contact h2{
+
+    
+	}
+
+
+
+
+}
+
+
