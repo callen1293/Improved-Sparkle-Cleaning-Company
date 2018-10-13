@@ -25,6 +25,13 @@ body{
         
     }
     
+    
+    .company-name2 {
+        
+        display: none;
+        
+    }
+    
   /* Navbar*/
 .navbar-inverse .navbar-nav > li > a{
 
@@ -143,15 +150,19 @@ font-size: 16px;
     
     
     color: #fff;
-    position: relative;
-    top: 70px;
-    left: 350px;
+    position: absolute;
+    top: 550px;
+    left: 345px;
     text-align: center;
     width: 50%;
     font-family: 'Roboto Slab', serif;
     font-size: 25px;
+
+
     
 }
+    
+    
 
  
     
@@ -724,11 +735,7 @@ margin: 0 0 0 5%;
 
     
     
-    .menu-bar{
-        
-        height: auto;
-    
-    }
+   
     
     .menu-bar ul{
         

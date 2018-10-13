@@ -1,6 +1,6 @@
 $( document ).ready(function() {   
     
-$('#contact').click(function () {
+$('#contact2').click(function () {
     $('html, body').animate({scrollTop:2500}, 'slow');
     return false;
 });
